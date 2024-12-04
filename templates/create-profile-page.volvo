@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Skapa profil</title>
+</head>
+<body>
+	<form action="/posts" method="POST">
+		<input type="text" name="profileName" placeholder="Användarnamn" required>
+		<input type="text" name="profileTitle" placeholder="Rubrik" required>
+		<input type="text" name="profileBreadtext" placeholder="Brödtext" required>
+		<button type="submit">Lägg till diskussionsinlägg</button>
+	</form>
+</body>
+</html>
